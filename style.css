@@ -1,4 +1,226 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+
+
+* {
     margin: 0;
     padding: 0;
+    font-family: "Merriweather", serif;
+    font-family: "Inter", sans-serif;
+}
+
+
+.containar {
+    width: 75%;
+    max-width: 1320px;
+    margin: 0 auto;
+
+}
+
+.bannar-text {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 200px 0;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%);
+}
+
+.bannar-text h4 {
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.new {
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.celebration {
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.bannar {
+    background-image: url(./image/Banner\ Image.png);
+    height: 600px;
+    background-size: cover;
+    width: 100%;
+
+
+}
+
+.container-event {
+    width: 50%;
+    max-width: 1320px;
+    margin: 120px auto;
+    align-items: center;
+}
+
+.event-text {
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.event-text h1 {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    line-height: 107px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.event-text p {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 48px 0;
+}
+
+.event-text h3 {
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+
+.event-img {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+
+}
+
+.party {
+    background-image: url(./image/Vectorrr.png);
+    height: 600px;
+    background-size: cover;
+    width: 100%;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+
+
+.party-text {
+    color: white;
+    text-align: left;
+    padding: 120px 100px;
+
+
+
+}
+
+.party-text h1 {
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 11%;
+    text-align: left;
+
+}
+
+.party-text p {
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.btn {
+    padding: 20px 30px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: transparent;
+    border-radius: 8px;
+    margin-top: 10px;
+
+}
+
+.party-img {
+    height: 70%;
+
+}
+
+.time {
+    width: 90%;
+    max-width: 1320px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+    border-radius: 16px;
+    margin-top: 100px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.222), rgba(255, 0, 0, 0.079) 100%);
+
+}
+
+.time-text {
+    text-align: center;
+    
+}
+.new-1{
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+.new-2{
+    font-size: 25px;
+    font-weight: 700;
+    padding-bottom: 10px;
+    
+}
+.new-3{
+    font-size: 28px;
+    font-weight: 700;
+    
+    
+}
+.color{
+    color: red;
+
 }
